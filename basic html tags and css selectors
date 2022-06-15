@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pepcoding</title>
+        <style>
+
+
+            /* simple selector */
+
+
+            /* h1{
+                color: blue;
+            }
+            p{
+                background-color: aqua;
+            }
+            #unique
+            {
+                text-decoration:underline;
+            }
+            #name
+            {
+                text-decoration: underline;
+            }
+            .common
+            {
+                background-color: pink;
+            } */
+
+            /* combinator selector 
+            
+            space */
+            .common p{
+                color: blueviolet; 
+            }
+
+
+            /* > immediate selector */
+            .common > p{
+                background-color: coral;
+            }
+
+            /* + sibling  */
+            .common + div{
+                color: red;
+            } 
+
+            /* general selector */
+            .common ~ div{
+                background-color: lightgreen;
+            }
+
+            /* attribute selector */
+
+
+            lable[for]{
+                color: chocolate;
+            }
+            label[for="name"]
+            {
+                background-color: cornflowerblue;
+            }
+            input[type]
+            {
+                background-color: forestgreen;
+            }
+            
+        </style>
+    </head>
+    <body>
+         <!--divison-->
+         <div>
+            hello
+            <p>i am satyam</p>
+        </div>
+        <div class="common">hello</div>
+        <div class="common">how are you?</div>
+        <div class="common">
+            <div class="something">something</div>
+            <div class="anything">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, laborum?</p>
+            </div>
+            <div class="everything">everything</div>
+            <p>hey my first html page</p>
+        </div>
+        <div class="sib">i am sibling</div>
+        
+        
+        <!--heading-->
+        <h1>hello everyone</h1>
+        
+        
+        <!--para-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, et ipsa fugit perspiciatis inventore odio possimus autem at iusto corporis totam tenetur labore asperiores modi quasi facilis similique tempore ea.</p>
+       
+       
+        <!--anchor-->
+        <a href="https://www.google.com">GOOGLE</a>
+
+        <div>
+            click on above button to reach google..
+        </div>
+
+
+
+       
+
+        <!--unordered list-->
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+
+        <!--ordered list-->
+        <ol>
+            <li>one
+            </li>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+
+        <span>content filling</span>
+
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <label for="mail">E-mail</label>
+            <input type="mail" id="mail">
+        </form>
+     </body>
+</html>
