@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            background-color: aquamarine;
+        }
+        .inline-1{
+            background-color: lightpink;
+        }
+        .inline-2{
+            background-color: lightgreen;
+        }
+        .inline-block{
+            background-color: yellow;
+            display: inline-block;
+            height: 10rem;
+            width: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">i am a block level</div>
+    <span class="inline-1">i am a inline element</span>
+    <span class="inline-2">i am a inline element 2</span>
+    <span class="inline-block">i am inline element 3</span>
+</body>
+</html>
