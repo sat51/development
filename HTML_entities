@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Enitities</title>
+</head>
+<body>
+    <!-- HTML Enitities are used for adding special symbols blank spaces in our website -->
+    <div class="container">
+        <p>this is a paragraph</p>
+        <p>this is a another &nbsp; paragraph</p>
+        <p>this is a paragraph &lt;p&gt;</p>
+        <p>this is written like this &pound; </p>
+        <p>Copyright is written like this &copy; </p>
+    </div>
+</body>
+</html>
