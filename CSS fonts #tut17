@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS fonts</title>
+    <style>
+        /* web safe fonts are those which are already installed in the OS.
+        and web fonts are those which are available on the internet and should be downloaded if you want to add them */
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 33px;
+            line-height: 1.3em;
+        }
+        span{
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS fonts</h3>
+    <p>This is a CSS <span>fonts</span> tutorial.</p>
+</body>
+</html>
