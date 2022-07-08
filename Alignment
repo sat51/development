@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet">
+    <style>
+       
+        body{
+            font-family:  'Edu QLD Beginner', cursive;
+        }
+           
+        
+        .container{
+            width: 900px;
+            border: 3px solid blue;
+            margin:auto;
+
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(237, 129, 129);
+        }
+        #fruits{
+            float: left;  /*used to float the text on your web page*/
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+        }
+        #stationary{
+            clear: both; /*clear is used to avoid the overlapping from other elements*/
+            width: 100%;
+
+        }
+        p,h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius totam tempore commodi aspernatur nesciunt, soluta animi, perspiciatis id incidunt, necessitatibus accusamus vitae tenetur eligendi dicta harum in laboriosam pariatur sit.
+            </p>
+        </div>
+        <div id="Computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius totam tempore commodi aspernatur nesciunt, soluta animi, perspiciatis id incidunt, necessitatibus accusamus vitae tenetur eligendi dicta harum in laboriosam pariatur sit.
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius totam tempore commodi aspernatur nesciunt, soluta animi, perspiciatis id incidunt, necessitatibus accusamus vitae tenetur eligendi dicta harum in laboriosam pariatur sit.
+            </p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
