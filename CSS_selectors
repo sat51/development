@@ -43,3 +43,46 @@
     <footer>this is footer</footer>
 </body>
 </html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        h1{
+            background-color: black;
+            color: white;
+            font-style: italic;
+        }
+        /* div p{
+            color: black;
+            background-color: yellow;
+        } */
+        div > p{            /*for direct child inside div */
+            color: black;
+            background-color: yellow;
+        }
+
+        div+p{                  /*for paragraph whose previous tag was div */
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>this is paragraph</p>
+        </div>
+        <p>this is another paragraph</p>
+    </div>
+    <p>this is outer paragraph</p>
+</body>
+</html>
