@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box shadow and light shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            border: 2px solid red;
+            background-color: yellow;
+            /* box-shadow: 10px 13px solid black;          this adds shadow on lower side of your box */
+            /* box-shadow: -7px -8px solid pink;           this adds shadow on upper side of your box  */
+            /* box-shadow: 7px 3px 10px solid green;          this third value is blur radius */
+            /* box-shadow: inset 7px 3px salmon;           this adds shadow in inward part */
+            /* box-shadow: 7px 3px blue 4px 8px yellow;    this adds shadow of two colors */
+        }
+        .card h3{
+            text-shadow: 2px 3px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h3>
+                this is HTML course
+            </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eos, voluptates alias inventore quia ab excepturi aspernatur ducimus soluta libero sint corporis voluptas officiis nulla culpa assumenda officia eligendi dignissimos nobis repudiandae, maiores quis.</p>
+        </div>
+        <div class="card" id="card2">
+            <h3>
+                this is c++ course
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nesciunt incidunt optio qui consectetur quaerat tenetur earum, ullam dicta vel maiores nihil a? Ullam dolorum expedita quod adipisci cumque aspernatur fuga! Non, nihil dolores.</p>
+        </div>
+        <div class="card" id="card3">
+            <h3>card3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, veritatis quasi magnam minima repudiandae sequi, at dicta corporis sunt atque necessitatibus quos inventore magni sint laborum aperiam quam fugit consequuntur tempora aliquam in laboriosam.</p>
+        </div> 
+    </div>
+    
+    
+</body>
+</html>
